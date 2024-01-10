@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header  {
+    height: 7em;
+  }
+  
+  .header span {
+    font-size: 50px;
+    font-family: fantasy;
+    color:rgb(8, 8, 95) ;
+
+  }
+  
+  .formulaire {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3%;
+    width: 25%;
+    margin: auto;
+    padding: 1em;
+  }
+  
+  .formulaire input {
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+
+  }
+  
+  .formulaire button {
+    margin-top: 2em;
+    padding: 1em;
+  }
+  
+  .result {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .result span {
+    border: 1px solid transparent;
+    border-radius: 25%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .result button {
+    border-radius: 25%;
+  }
+
+  .action #edit {
+    background-color: rgb(69, 116, 0);
+    border: transparent;
+  }
+  
+  .action #done {
+    background-color: aqua;
+    border: transparent;
+  }
+  
+  .action #delete {
+    background-color: red;
+    border: transparent;
+  }
+  
+  hr {
+    width: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  body.dark-mode {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Styles pour le mode White */
+  body.white-mode {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Styles pour le mode Blue */
+  body.blue-mode {
+    background-color: blue;
+    color: black;
+  }
+  
+  /* Styles pour le mode Yellow */
+  body.yellow-mode {
+    background-color: yellow;
+    color: white;
+  }
+  
+  /* Styles pour les boutons de mode */
+  .color-mode-buttons {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .color-mode-buttons button {
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 5px;
+
+  }
+
+.darkcolor{
+    background: black;
+    color: white;
+}
+.bluecolor{
+    background: blue;
+    color: white;
+}
+.whitecolor{
+    background: white;
+    color: dark;
+}
+
+  
+  /* Media Query pour les écrans de taille maximale de 768px */
+  @media screen and (max-width: 760px) {
+ 
+  
+    .formulaire {
+      font-size: 40px;
+      margin-bottom: 30px;
+      background: rgb(201, 194, 194);
+    }
+  
+    .formulaire input {
+      width: 80%;
+      height: 40px;
+    }
+  
+    .result {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      font-size: 35px;
+      text-align: center;
+      padding: 40px;
+      background: rgb(201, 194, 194)
+    }
+  
+    .result span {
+      font-size: 35px;
+      margin-bottom: 10px;
+    }
+  
+    .result button {
+      margin-top: 5px;
+      font-size: 35px;
+    }
+  }
+
+
