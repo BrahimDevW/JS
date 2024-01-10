@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navigation img{
+    padding-bottom: 20px;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+
+nav li{
+    margin: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: grey;
+}
+
+nav p{
+    
+    background-size: cover;
+}
+
+
+
+
+
+#hautdepage{
+    background-image: url(./image/hero-image.jpg);
+    background-size: cover;
+    height: 470px;
+    font-size: larger;
+}
+
+#hautdepage h1{
+    color: aliceblue;
+    text-align: center;    
+}
+
+#hautdepage p{
+    color: aliceblue;
+}
+
+#hautdepage div,img{
+    padding-top: 30px;
+    text-align: center;    
+}
+
+.btn input{
+    padding: 10px ;
+    background-color: red;
+    color: aliceblue;
+    font-size: larger;
+    border: transparent;
+}
+span{
+    color: orangered;
+}
+
+.container{
+    height: 70vh;
+    background-color: lightgrey;
+}
+
+.contenu1{
+    text-align: center;
+}
+
+hr{
+    width: 150px;
+    margin: auto;
+    background-color: orangered;
+    margin-top: 10px ;
+    border: none;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+.contenu1 h2{
+    color: orangered;
+    margin-top: 10px;
+}
+
+.contenu1 p{
+    color: black;
+}
+
+.container h2,h3{
+    text-align: center;
+    color: orangered;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.contenu2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+    
+}
+
+.contenu2 img{
+    width: 40px;
+    height: 40px;
+}
+
+.contenu2 p{
+    color: black;
+    margin: 0px 100px 0px 100px;
+    font-size: large;
+}
+
+.contenu2 input{
+    padding: 5px;
+    color: orangered;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    color: aliceblue;
+}
+
+footer div{
+    padding: 40px;  
+}
+
+footer .fleche{
+    width: 30px;
+    height: 30px;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 320px)  
+    {
+    tr
+        {
+        font-size: 25px;
+        }      
+    }
+ @media only screen and (max-width: 1023px) and (min-width: 768px)  
+    {
+    tr
+        {
+        font-size: 35px;
+        }  
+    }    
+
+
+
+
+
+
+
+
