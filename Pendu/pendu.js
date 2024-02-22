@@ -63,6 +63,7 @@ mot.forEach((lettre, index) => {
     baliseMot.appendChild(btn)
 })
 
+
 function checkIfExist(lettre) {
     mot.forEach((element, index) => {
 
@@ -78,15 +79,18 @@ function checkIfExist(lettre) {
     } else if (nbchance < 1) {
 
             chance.innerHTML = `Perdu`;
-        image.innerHTML = `<button id="btndem" style="width: 200px; height: 200px;"><img src="./image/giphy.gif" alt=""></button>`
+        image.innerHTML = `<button id="btndem" style="width: 250px; height: 250px;"><img src="./image/giphy.gif" alt=""></button>`
         let tryAgain = document.querySelector("#btndem");
         tryAgain.addEventListener("click", () => {
             location.reload()
         })
     }
-
-
 }
+
+const next = document.getElementById("next")
+next.addEventListener("click", () => {
+    location.reload()
+})
 
 window.addEventListener("keyup", (e)=>{
     if(alpha.match(e.key)){
