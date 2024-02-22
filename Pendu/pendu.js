@@ -53,8 +53,6 @@ alpha.forEach((element, index) => {
     texte.appendChild(btn)
 
 });
-
-
 mot.forEach((lettre, index) => {
     const btn = document.createElement("button")
     btn.id = index + lettre
