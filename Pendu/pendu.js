@@ -52,6 +52,7 @@ alpha.forEach((element, index) => {
     btn.innerHTML = element
     texte.appendChild(btn)
 
+    
 });
 mot.forEach((lettre, index) => {
     const btn = document.createElement("button")
